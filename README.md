@@ -57,7 +57,7 @@ use \ only to separate folders.
 
 List to the paths of folders you wan to backup.
 
-- Note that this tool will get the drive letter of source folders make the backup inside these folders. So by this example you wil get this structure in the root of the destination drive:
+- Note that this tool will get the drive letter of source folders and make the backup inside these folders. So by this example you wil get the follow structure in the root of the destination drive:
 
 ```
 c

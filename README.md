@@ -56,7 +56,7 @@ c
 	docs\only_important_docs
 d
 	downloads
-    more_games
+	more_games
 e
 	music
 ```

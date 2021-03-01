@@ -22,6 +22,7 @@ You can configure the tool by editing the `config.ini` file.
     log=true
 
 options = robocopy options that can be found [here](https://docs.microsoft.com/pt-br/windows-server/administration/windows-commands/robocopy "here").
+
 log = enable/disable log to a file.
 
     [Destination]
@@ -29,6 +30,7 @@ log = enable/disable log to a file.
     folder=FolderXYZ
 
 uuid = the UUID found with the command `mountvol`.
+
 folder = some folder you want to specify in destination drive:
 
 left blank = will copy direct to drive root

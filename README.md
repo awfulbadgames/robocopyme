@@ -38,7 +38,9 @@ uuid = the UUID found with the command `mountvol`.
 folder = some folder you want to specify in destination drive:
 
 left blank = will copy direct to drive root
+
 "somefolder" = will create "somefolder" in root and copy  backup inside.
+
 "somefolder\anotherfolder =  will create "somefolder" in root and "anotherfolder" inside "somefolder", and the backup inside.
 
 use \ only to separate folders.

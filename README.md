@@ -1,8 +1,10 @@
 # robocopyme
 
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?business=NW2RZCWTRC2ZE&currency_code=BRL)
+
 This tool is designed to simplify backup with robocopy by setting a config file.
 
-### Before start
+## Before start
 
 You must find the UUID of the disk you want to use as destination.
 There are many ways to find it, but you can open a cmd window and type:
@@ -71,4 +73,6 @@ e
 	music
 ```
 
-### End
+## Donation
+
+[![paypal](https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png)](https://www.paypal.com/donate?business=NW2RZCWTRC2ZE&currency_code=BRL)

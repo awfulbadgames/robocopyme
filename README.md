@@ -17,17 +17,21 @@ Just copy the project file to wherever you want.
 
 You can configure the tool by editing the `config.ini` file.
 
-    [Option]
-    options=/MIR /XJD /R:0 /W:0 /ETA /NDL /NFL
-    log=true
+- Option
+
+        [Option]
+        options=/MIR /XJD /R:0 /W:0 /ETA /NDL /NFL
+        log=true
 
 options = robocopy options that can be found [here](https://docs.microsoft.com/pt-br/windows-server/administration/windows-commands/robocopy "here").
 
 log = enable/disable log to a file.
 
-    [Destination]
-    uuid=27e8ea5c-7e12-4f2a-ab83-22af3f4f2403
-    folder=FolderXYZ
+- Destination
+
+        [Destination]
+        uuid=27e8ea5c-7e12-4f2a-ab83-22af3f4f2403
+        folder=FolderXYZ
 
 uuid = the UUID found with the command `mountvol`.
 
@@ -39,13 +43,15 @@ left blank = will copy direct to drive root
 
 use \ only to separate folders.
 
-    [Source]
-    c:\bin
-    c:\games
-    c:\docs\only_important_docs
-    d:\downloads
-    d:\more_games
-    e:\music
+- Source
+
+        [Source]
+        c:\bin
+        c:\games
+        c:\docs\only_important_docs
+        d:\downloads
+        d:\more_games
+        e:\music
 
 List to the paths of folders you wan to backup.
 
